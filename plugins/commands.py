@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('🤖 Updates', url='https://t.me/LMovies_HD')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('😂 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
